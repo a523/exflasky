@@ -8,5 +8,7 @@
 </div>
 <div class="col-mb-4">
     {{ wtf.quick_form(form) }}
+    <br>
+    <p>New user? <a href="{{ url_for('auth.register') }}">Click gere to register</a>.</p>
 </div>
 {% endblock %}
